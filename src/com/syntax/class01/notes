@@ -1,0 +1,63 @@
+Selenium Class 1
+
+What is software tesing?
+-- identify correctness and quality of the application
+
+How many ways can we actually test?
+-- manual
+-- automation
+
+When do we go for automation?
+-- after manual testing passes
+-- when environment is stable
+-- analyze our test suite and choose our automation tools
+
+What other tools we have for automation?
+-- Selenium, Cucumber,UFT/QTP, Katalon Studio
+
+Levels of testing?
+-- Unit Testing(done by programmers)
+-- System testing
+-- Integration Test
+-- Acceptance Test (UAT User Acceptance Test)
+
+
+Types of software testing?
+-- Functional testing (trying to test the functionality of the app)
+-- Non-functional testing
+    Performance Testing
+    Security Testing
+
+What is Selenium?
+-- Selenium is a set of tools which helps us to automate web applications. It is mainly used for *functional testing.(This is only for web testing. not mobile or desktop!)
+
+Selenium components:
+1. Selenium IDE or integrated development environment
+2. Selenium RC -> Remote Control
+3. Selenium WebDriver--(This is the one we will be working on)
+4. Selenium Grid
+
+What is Selenium WebDriver?
+Open source automation tool which allows you to perform actions on a web application.***WebDriver is an interface.
+
+Advantages of Selenium WebDriver:
+-- Open source
+-- Works with multiple browsers and supports cross browser testing
+-- Works with multiple programming languages --> Java, Ruby, C#, Python, JavaScript
+-- OS independent -->iOS, Linux, Windows
+
+Disadvantages of Selenium WebDriver
+-- Cannot test Desktop applications
+-- No built in reporting
+-- No technical support
+-- Cannot test captcha images
+-- Takes more time to create test cases
+
+get() vs navigate();
+-- get() will wait for the page to fully load
+-- get() will not keep the history in your browser whereas navigate will
+-- navigate() will move back and forward, refresh(can use methods)
+
+close() vs quit();
+-- close will close the current tab
+-- quit will close the whole browser
